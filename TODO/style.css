@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  min-width: 250px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#newTask {
+  background-color: lightblue;
+  padding: 30px 40px;
+  color: brown;
+  text-align: center;
+}
+
+#tasks {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+}
+
+#task_status {
+  background: #eee;
+  font-size: 18px;
+  padding: 20px;
+   background-color: lightblue;
+}
+
+#addTask {
+   background-color: brown; 
+    color: white; 
+}
+
